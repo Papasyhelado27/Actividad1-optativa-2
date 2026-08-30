@@ -1,19 +1,62 @@
-Resumen ejecutivo
-	Problema principal:
-       La empresa Gyr recibe pedidos que provienen de diferentes canales de venta y administra inventarios distribuidos en diferentes puntos.  Asimismo, tiene la obligación de organizar las rutas, los almacenes y los repartidores para llevar a cabo las entregas de una manera eficiente para cumplir con el cronograma interno de la compañía.
-Hoy en día, la organización no cuenta con una vista centralizada que permita conocer en tiempo real el estado de cada pedido y su proceso logístico esto afecta a la operatividad de las actividades más cuando hay una gran demanda por parte de los clientes. 
-Esto también genera otro tipo de fallas estructurales como son las duplicaciones de información, inconsistencias de inventario, retrasos en las entregas, errores operativos y poca trazabilidad, dificultando la coordinación entre las diferentes áreas involucradas.
-Esto genera duplicación de información, inconsistencias de inventario, retrasos en las entregas, errores operativos y poca trazabilidad, dificultando la coordinación entre las diferentes áreas involucradas.
+1. Resumen ejecutivo
+   	Problema principal:
+          La empresa Gyr recibe pedidos que provienen de diferentes canales de venta y administra inventarios distribuidos en diferentes puntos.  Asimismo, tiene la obligación de organizar las rutas, los almacenes y los repartidores para llevar a cabo las entregas de una manera eficiente para cumplir con el cronograma interno de la compañía.
+   Hoy en día, la organización no cuenta con una vista centralizada que permita conocer en tiempo real el estado de cada pedido y su proceso logístico esto afecta a la operatividad de las actividades más cuando hay una gran demanda por parte de los clientes. 
+   Esto también genera otro tipo de fallas estructurales como son las duplicaciones de información, inconsistencias de inventario, retrasos en las entregas, errores operativos y poca trazabilidad, dificultando la coordinación entre las diferentes áreas involucradas.
+   Esto genera duplicación de información, inconsistencias de inventario, retrasos en las entregas, errores operativos y poca trazabilidad, dificultando la coordinación entre las diferentes áreas involucradas.
+   
+   Usuarios y Los actores fundamentales que se relacionan con la plataforma son:
+   
+   * Cliente: hace pedidos y verifica el estado de las entregas.
+   * Operador de comercio o tienda: se encarga de administrar los pedidos que llegan a través de las vías de venta.
+   * Gestor de almacén: supervisa la preparación, el despacho y el inventario de los pedidos.
+   * Repartidor: obtiene las rutas que le son asignadas y actualiza el estado de las entregas.
+   * Asistencia al cliente: consulta órdenes y gestiona problemas.
+   * Sistema de pagos: verifica y ofrece datos vinculados a los pagos.
+   * Servicio de geolocalización: ofrece datos sobre localización y seguimiento.
+   * Sistema de avisos: manda mensajes a los encargados de la operación y al cliente.
+   * ERP/CRM interno: comparte información acerca de operaciones comerciales con la plataforma
+   
+   
+2. Objetivo General
+   
+   Crear conceptualmente una plataforma centralizada que permita y posibilite la gestión, el seguimiento y el escalamiento del proceso logístico de la organización GyR, desde que se recibe un pedido hasta que se entrega a su destinatario de una manera eficiente cumpliendo con el cronograma interno de la compañía.
+   
+   
+3. Objetivos Específicos:
+   
+* Concentrar la información de los pedidos.
+* Comprobar la disponibilidad del inventario.
+* Coordinar la elaboración y envío de pedidos.
+* Distribuir rutas y mensajeros.
+* Permitir el monitoreo de la situación de las entregas.
+* Administrar incidentes a lo largo del proceso logístico.
+* Promover la comunicación entre las áreas que se encuentran implicadas.
+* Optimizar la capacidad de rastrear cada pedido.
+   
+4. Alcance inicial
 
-Usuarios y Los actores fundamentales que se relacionan con la plataforma son:
+Inicialmente la plataforma se enfocará en:
 
-* Cliente: hace pedidos y verifica el estado de las entregas.
-* Operador de comercio o tienda: se encarga de administrar los pedidos que llegan a través de las vías de venta.
-* Gestor de almacén: supervisa la preparación, el despacho y el inventario de los pedidos.
-* Repartidor: obtiene las rutas que le son asignadas y actualiza el estado de las entregas.
-* Asistencia al cliente: consulta órdenes y gestiona problemas.
-* Sistema de pagos: verifica y ofrece datos vinculados a los pagos.
-* Servicio de geolocalización: ofrece datos sobre localización y seguimiento.
-* Sistema de avisos: manda mensajes a los encargados de la operación y al cliente.
-* ERP/CRM interno: comparte información acerca de operaciones comerciales con la plataformas
+* Manejo y registro de los pedidos.
+* Verificación del estado de las órdenes.
+* Comprobación del inventario.
+* Gestión de despacho y preparación.
+* Distribución de rutas.
+* Distribución de repartidores.
+* Monitoreo de entregas.
+* Manejo de incidentes.
+* Integración con servicios externos requeridos para la operación.
+* Consulta de datos por parte del soporte.
 
+Estarán fuera del alcance inicial del proyecto los siguientes ítems:
+
+* Creación de una plataforma integral para el comercio electrónico.
+* Gestión contable de la compañía.
+* Administración integral de recursos humanos.
+* Producción o compra de productos.
+* Sustitución total del ERP o CRM actual.
+* Perfeccionamiento de rutas a través de inteligencia artificial.
+* 
+* Esto último es relevante ya que muestra que comprendiste que la actividad requiere definir el problema en lugar de resolverlo por completo.
+   
