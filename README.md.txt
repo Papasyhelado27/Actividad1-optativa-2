@@ -1,0 +1,5 @@
+Problema principal:
+ La empresa Gyr recibe pedidos que provienen de diferentes canales de venta y administra inventarios distribuidos en diferentes puntos.  Asimismo, tiene la obligación de organizar las rutas, los almacenes y los repartidores para llevar a cabo las entregas de una manera eficiente para cumplir con el cronograma interno de la compañía.
+Hoy en día, la organización no cuenta con una vista centralizada que permita conocer en tiempo real el estado de cada pedido y su proceso logístico esto afecta a la operatividad de las actividades más cuando hay una gran demanda por parte de los clientes. 
+Esto también genera otro tipo de fallas estructurales como son las duplicaciones de información, inconsistencias de inventario, retrasos en las entregas, errores operativos y poca trazabilidad, dificultando la coordinación entre las diferentes áreas involucradas.
+Esto genera duplicación de información, inconsistencias de inventario, retrasos en las entregas, errores operativos y poca trazabilidad, dificultando la coordinación entre las diferentes áreas involucradas.
