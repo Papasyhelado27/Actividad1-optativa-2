@@ -1,0 +1,55 @@
+Análisis del problema
+La compañía, en la actualidad, gestiona pedidos que provienen de diversos canales y maneja inventarios repartidos por varias ubicaciones igualmente insumos en proceso de entrar en proceso de envió.
+Los datos sobre inventario, pedidos, rutas y entregas no están completamente centralizados correctamente. Esto exige que varios departamentos trabajen con datos que podrían estar obsoletos, duplicados o repartidos entre sistemas distintos.
+Por lo tanto, no hay una perspectiva única y confiable de la situación real de cada pedido, esto es un inconveniente ya que la logística de la compañía GyR necesita coordinación entre varios actores.
+
+Un pedido debe atravesar varias fases:
+
+ Pedido 
+           ?
+ Validación
+           ?
+ Inventario 
+           ?
+ Preparación 
+           ?
+ Despacho
+           ? 
+Asignación de ruta
+           ?
+ Repartidor
+           ?
+ Entrega 
+           ?
+ Confirmación
+   
+Se puede presentar un impacto sobre las etapas ya mencionadas, si la información de alguna de estas fases no está actualizada según el flujo del pedido.
+
+ Ejemplo:
+Si el sistema señala que hay inventario cuando en realidad no lo hay, se puede aceptar el pedido, procesarlo parcialmente o posponerlo esto ocasionaría que la entrega pueda retrasarse o no realizarse y si el repartidor no obtiene datos actualizados sobre el pedido o la ruta tendrá dificultades en la entrega inclusive no llegar a su destinatario final.
+
+Consecuencias de estas fallas:
+
+Los efectos más significativos son:
+
+1. Demoras
+La falta de sincronización puede incrementar el tiempo requerido para la preparación y entrega de pedidos.
+
+2. Errores en el inventario
+La información desactualizada puede causar que se asignen artículos que realmente no están disponibles.
+
+3. Repetición de pedidos
+Los datos provenientes de distintos canales pueden registrarse más de una vez.
+
+4. Fallos en las entregas
+La falta de información actualizada puede provocar problemas relacionados con la dirección, la disponibilidad del cliente o la asignación de rutas.
+
+5. Escasa trazabilidad
+La empresa podría enfrentar dificultades para identificar con precisión lo que ocurrió con un pedido.
+
+6. Problemas en la atención al cliente
+El departamento de soporte puede no tener acceso a información actualizada para resolver consultas.
+
+7. Crecimiento operativo descontrolado
+A medida que los pedidos aumentan, los problemas de coordinación también pueden intensificarse.
+
