@@ -1,0 +1,19 @@
+Resumen ejecutivo
+	Problema principal:
+       La empresa Gyr recibe pedidos que provienen de diferentes canales de venta y administra inventarios distribuidos en diferentes puntos.  Asimismo, tiene la obligación de organizar las rutas, los almacenes y los repartidores para llevar a cabo las entregas de una manera eficiente para cumplir con el cronograma interno de la compañía.
+Hoy en día, la organización no cuenta con una vista centralizada que permita conocer en tiempo real el estado de cada pedido y su proceso logístico esto afecta a la operatividad de las actividades más cuando hay una gran demanda por parte de los clientes. 
+Esto también genera otro tipo de fallas estructurales como son las duplicaciones de información, inconsistencias de inventario, retrasos en las entregas, errores operativos y poca trazabilidad, dificultando la coordinación entre las diferentes áreas involucradas.
+Esto genera duplicación de información, inconsistencias de inventario, retrasos en las entregas, errores operativos y poca trazabilidad, dificultando la coordinación entre las diferentes áreas involucradas.
+
+Usuarios y Los actores fundamentales que se relacionan con la plataforma son:
+
+* Cliente: hace pedidos y verifica el estado de las entregas.
+* Operador de comercio o tienda: se encarga de administrar los pedidos que llegan a través de las vías de venta.
+* Gestor de almacén: supervisa la preparación, el despacho y el inventario de los pedidos.
+* Repartidor: obtiene las rutas que le son asignadas y actualiza el estado de las entregas.
+* Asistencia al cliente: consulta órdenes y gestiona problemas.
+* Sistema de pagos: verifica y ofrece datos vinculados a los pagos.
+* Servicio de geolocalización: ofrece datos sobre localización y seguimiento.
+* Sistema de avisos: manda mensajes a los encargados de la operación y al cliente.
+* ERP/CRM interno: comparte información acerca de operaciones comerciales con la plataformas
+
