@@ -1,0 +1,7 @@
+Justificación de la solución inicial
+
+La idea de desarrollar una plataforma unificada se ajusta a la problemática observada, ya que uno de los mayores retos en la actualidad es la fragmentación de la información en distintos procesos, departamentos y sistemas
+Dicha plataforma crearía un recurso centralizado para acceder y actualizar datos relacionados con los pedidos y su logística.
+Esto haría más sencillo que los diversos participantes usaran información alineada. Por ejemplo, el encargado del almacén podría revisar los pedidos pendientes y confirmar la disponibilidad de los productos, mientras que el departamento responsable de las rutas podría aprovechar los datos disponibles para planificar las entregas.
+Asimismo, el equipo de soporte tendría la capacidad de verificar el estado de los pedidos y recurrir a la información de trazabilidad para atender las consultas de los clientes.
+La centralización también facilitaría la identificación de los puntos donde surgen problemas, tales como retrasos, falta de existencias, fallos en las entregas o errores en los datos.
