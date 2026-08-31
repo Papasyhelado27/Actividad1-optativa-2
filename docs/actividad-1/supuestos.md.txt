@@ -1,0 +1,15 @@
+Supuestos
+
+Supuestos:
+   
+Para esta primera etapa se establecen los siguientes supuestos:
+
+* La empresa ya cuenta con diferentes canales para recibir pedidos.
+* La empresa dispone de inventarios distribuidos.
+* Existe un ERP o CRM interno que debe continuar funcionando.
+* Los pagos son procesados por un sistema externo.
+* La empresa cuenta con repartidores propios o asociados.
+* Existe disponibilidad de un servicio de geolocalización.
+* La empresa necesita notificar cambios en los pedidos.
+* Los diferentes actores necesitan consultar información relacionada con sus funciones.
+* El volumen de pedidos puede aumentar con el crecimiento del negocio.
