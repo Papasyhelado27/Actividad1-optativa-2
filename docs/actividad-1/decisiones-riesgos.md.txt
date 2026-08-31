@@ -1,0 +1,81 @@
+   Qué decisiones que ya se han tomado
+   
+   La principal decisión inicial es:
+Una decisión clave desde el principio es unificar la gestión logística en una sola plataforma para optimizar la coordinación y el seguimiento de los procesos vinculados a los pedidos y las entregas.
+
+La plataforma facilitará inicialmente:
+
+* Registrar y gestionar pedidos.
+* Validar la disponibilidad del inventario.
+* Coordinar la preparación y despacho.
+* Asignar rutas y repartidores.
+* Realizar seguimiento de las entregas.
+* Gestionar incidencias.
+* Consultar el estado de los pedidos.
+* Mantener la información de trazabilidad de cada pedido.
+   
+   También se decide que la plataforma deberá interactuar con los sistemas externos existentes en lugar de reemplazarlos.
+   
+   Entre estos sistemas se encuentran:
+   
+* ERP o CRM interno.
+* Sistema de pagos.
+* Servicio de geolocalización.
+* Sistema de notificaciones.
+* Canales de venta existentes.
+   
+   La razón de esta decisión es que el objetivo del proyecto no es reemplazar todos los sistemas tecnológicos de la empresa, sino centralizar la información logística y mejorar la coordinación entre los diferentes actores que participan en el proceso.
+   
+   
+   
+   
+   
+   Qué información todavía necesitamos 
+   
+   Antes de establecer la arquitectura final, es fundamental obtener más datos sobre el funcionamiento de la empresa. 
+   
+   Entre los aspectos clave que aún están por confirmar se encuentran:
+   
+* ¿Cuántos pedidos recibe diariamente la empresa?
+* ¿Cuántos usuarios tendrá la plataforma?
+* ¿Cuántos almacenes existen?
+* ¿Cuántos repartidores participan en la operación?
+* ¿Los repartidores serán empleados de la empresa o terceros?
+* ¿Qué ERP utiliza actualmente la empresa?
+* ¿Qué CRM utiliza?
+* ¿Cómo se integran actualmente los diferentes canales de venta?
+* ¿Qué proveedor de geolocalización se utilizará?
+* ¿Qué sistema de pagos utiliza la empresa?
+* ¿Qué información debe recibir exactamente el cliente?
+* ¿Cuál es el tiempo máximo esperado para actualizar el estado de un pedido?
+* ¿Qué nivel de disponibilidad requiere la plataforma?
+* ¿Qué cantidad de información histórica debe conservarse?
+* ¿Qué requisitos de seguridad y protección de datos deben cumplirse?
+   
+Estas cuestiones deben ser abordadas en etapas siguientes, dado que sus respuestas pueden tener un impacto directo en las decisiones arquitectónicas y tecnológicas.
+
+
+
+
+
+
+
+
+
+
+Riesgos principales
+
+Los principales riesgos identificados durante el diagnóstico son:
+
+RiesgoConsecuenciaImpacto   Pedidos duplicadosEntregas incorrectas y problemas de inventarioAlto   Inventario inconsistenteVenta de productos que realmente no están disponiblesAlto   Entregas retrasadasInsatisfacción del cliente y posibles reclamosAlto   Entregas fallidasCostos adicionales y necesidad de reprogramaciónAlto   Pérdida de trazabilidadDificultad para conocer qué ocurrió con un pedidoAlto   Mala coordinaciónRetrasos y errores operativosAlto   Fallos de integraciónInformación incompleta o desactualizadaAlto   Crecimiento del volumen de pedidosSaturación de procesos y disminución del rendimientoMedio/Alto   Información incorrectaDecisiones operativas equivocadasAlto   Falta de seguridadAcceso no autorizado o exposición de informaciónAlto   
+   Riesgos prioritarios
+   
+   Los riesgos que deben ser atendidos con mayor urgencia son:
+   
+1. Discrepancias en el inventario, ya que pueden resultar en la aceptación de pedidos de artículos que no están en stock.
+2. Pedidos repetidos, porque pueden ocasionar problemas en el inventario y envíos erróneos.
+3. Pérdida de trazabilidad, porque complica la identificación del estado y el historial de un pedido.
+4. Retrasos o fallos en la entrega, ya que impactan de manera directa en la experiencia del cliente.
+5. Fallas de integración, por la dependencia de sistemas externos.
+6. Seguridad de los datos, debido a la información de clientes y pedidos que la plataforma gestionará.
+7. Expansión de la operación, puesto que el volumen de pedidos puede incrementarse con el crecimiento del negocio.
